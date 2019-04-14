@@ -1,0 +1,61 @@
+/*全局样式*/
+*{padding:0;margin:0;}
+
+html, body, #globe {
+    width: 100%; 
+    height: 100%; 
+    position: absolute;
+}
+
+
+
+/*目录树*/
+#tree{
+    left: 14px;
+    top: 14px;
+    width:15%;
+    height:90%;
+    position: absolute;
+}
+#treeback{
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-color: rgb(42, 37, 46);
+}
+#treeboder{
+    width:100%;
+    height:100%;
+    position: absolute;
+    border:1px solid rgb(0, 238, 255);
+    border-radius: 5px;
+    box-shadow: rgb(0, 238, 255) 0px 0px 10px;
+}
+#treemove{
+    width:100%;
+    height:50px;
+    text-align:center;
+    display: inline-block; /*一定要将div设置为inline-block*/
+    vertical-align: middle;/*设置该元素在父元素中的位置*/
+    line-height: 50px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: rgb(0, 238, 255);
+}
+#treeTitle{
+    height: 35px;
+    color: aliceblue;
+}
+
+#node{
+    color: aliceblue;
+    size: 50%;
+}
+
+#treebox{
+   border: none;
+   width:100%;
+   height: 100%;
+   text-align:center;
+}
+/*以上为目录树*/
